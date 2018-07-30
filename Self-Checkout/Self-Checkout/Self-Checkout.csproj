@@ -6,4 +6,8 @@
     <RootNamespace>Self_Checkout</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="EmptyClass.cs" />
+    <Compile Remove="Shopping_Card_Item.cs" />
+  </ItemGroup>
 </Project>
