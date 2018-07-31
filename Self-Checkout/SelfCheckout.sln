@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfCheckout", "Self-Checkout\SelfCheckout.csproj", "{DF0C9958-FE22-4F56-9A8D-87F6BE392598}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfCheckoutTests", "SelfCheckoutTests\SelfCheckoutTests.csproj", "{6DA41001-6064-44DF-B0AB-EE25FBB3DE55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{DF0C9958-FE22-4F56-9A8D-87F6BE392598}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF0C9958-FE22-4F56-9A8D-87F6BE392598}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF0C9958-FE22-4F56-9A8D-87F6BE392598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DA41001-6064-44DF-B0AB-EE25FBB3DE55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA41001-6064-44DF-B0AB-EE25FBB3DE55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DA41001-6064-44DF-B0AB-EE25FBB3DE55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DA41001-6064-44DF-B0AB-EE25FBB3DE55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

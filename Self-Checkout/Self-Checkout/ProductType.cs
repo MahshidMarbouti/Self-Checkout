@@ -2,7 +2,7 @@
 {
     public class ProductType
     {     
-        string Name;
+        public string Name { get; private set; }
         public ProductType(string name){
             Name = name;
         }
