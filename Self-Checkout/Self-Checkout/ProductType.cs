@@ -1,8 +1,10 @@
 ﻿namespace Self_Checkout
 {
     public class ProductType
-    {
-        int ID;
+    {     
         string Name;
+        public ProductType(string name){
+            Name = name;
+        }
     }
 }

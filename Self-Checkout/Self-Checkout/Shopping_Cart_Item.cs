@@ -5,7 +5,7 @@ namespace Self_Checkout
     {
         public Product ProductItem;
         public int Quantity;
-        public Shopping_Cart_Item(Product product, int quantity)
+        public Shopping_Cart_Item(Product product, int quantity = 0)
         {
             ProductItem = product;
             Quantity = quantity;
