@@ -8,7 +8,8 @@ namespace SelfCheckout
         {
             Console.WriteLine("Hello World!");
             Checkout newCheckout = new Checkout();
-
+            newCheckout.Add(1);
+            newCheckout.GeneranteReciept();
         }
     }
 }

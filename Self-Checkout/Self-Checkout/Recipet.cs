@@ -4,14 +4,17 @@ namespace SelfCheckout
     public class Recipet
     {
         public int Id { get; set; }
+        public static int NextId;
         public string Address { get; set; }
         public ShoppingCart Cart { get; set; }
-    
-        public Recipet(int id, ShoppingCart cart, string address = "ABC")
+        public static string address = "ABC";
+
+        public Recipet(int id, ShoppingCart cart)
         {
-            Id = id;
+            Id = NextId;
+            NextId++;
             Cart = cart;
-            Address = address;
         }
-       
+
+    }
 }
