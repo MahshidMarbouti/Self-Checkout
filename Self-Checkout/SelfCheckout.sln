@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Self-Checkout", "Self-Checkout\Self-Checkout.csproj", "{DF0C9958-FE22-4F56-9A8D-87F6BE392598}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfCheckout", "Self-Checkout\SelfCheckout.csproj", "{DF0C9958-FE22-4F56-9A8D-87F6BE392598}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

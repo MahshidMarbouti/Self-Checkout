@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Self_Checkout
+namespace SelfCheckout
 {
     public class Payment
     {

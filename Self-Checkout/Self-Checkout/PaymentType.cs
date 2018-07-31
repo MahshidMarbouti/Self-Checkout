@@ -1,4 +1,4 @@
-﻿namespace Self_Checkout
+﻿namespace SelfCheckout
 {
     public class PaymentType
     {

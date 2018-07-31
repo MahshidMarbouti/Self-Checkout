@@ -1,39 +1,55 @@
 ﻿using System;
 using System.Linq;
 
-namespace Self_Checkout
+namespace SelfCheckout
 {
     public class Checkout
     {
-        ShoppingCart Shoppingcart;
-        DateTime Date;
-        int ID;
-        public Checkout(ShoppingCart shopping, DateTime date)
+        private ShoppingCart _shoppingcart;
+        private DateTime _date;
+        private int _id;
+        public Checkout()
         {
-            Date = date;
+            _date = DateTime.Now;
+            _shoppingcart = new ShoppingCart();
         }
-        public void add(int ID){
-           
-            if ((Shoppingcart.items.Where(x => x.ProductItem.ID == ID).Select(y => { y.Quantity += 1; return y; }).ToList())== null)
-            {
-                DataLayer reader = new DataLayer();
-                Product pr = reader.FindProduct(ID);
-                Shopping_Cart_Item newItem = new Shopping_Cart_Item(pr);
-                Shoppingcart.add(newItem);
-            }
-           
-        } 
-
-        public int Generante_Reciept()
+        public void Add(int productId)
         {
-            Recipet receipt = new Recipet(ID, Shoppingcart);
-            int price = receipt.Print_Reciept();
+            var shoppingCartItemforProduct = _shoppingcart.items.SingleOrDefault(x => x.ProductItem.Id == productId);
+
+            if (shoppingCartItemforProduct==null){
+                var textReader = new TextReader();
+                var productRepository = new ProductRepository(textReader);
+
+                //TODO: check for not found products
+                var productInRepository = productRepository.FindById(productId);
+
+                _shoppingcart.add(new ShoppingCartItem(productInRepository));
+            }
+            else{
+                shoppingCartItemforProduct.Quantity++;
+            }
+      } 
+        /// <summary>
+        /// Generantes the reciept.
+        /// </summary>
+        /// <returns>The reciept.</returns>
+        public int GeneranteReciept()
+        {
+            var receipt = new Recipet(_id, _shoppingcart);
+            var price = receipt.Print_Reciept();
             return price;
 
         }
-        public bool processPayment(PaymentType type, float amount)
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns><c>true</c>, if payment was processed, <c>false</c> otherwise.</returns>
+        /// <param name="type">Type.</param>
+        /// <param name="amount">Amount.</param>
+        public bool ProcessPayment(PaymentType type, float amount)
         {
-            Payment payment = new Payment(type, amount);
+            var payment = new Payment(type, amount);
             return payment.processPayment();
                           
 

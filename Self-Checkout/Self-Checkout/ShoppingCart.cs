@@ -1,28 +1,24 @@
 ﻿using System;
 using System.Collections.Generic; 
-namespace Self_Checkout
+namespace SelfCheckout
 {
     public class ShoppingCart
     {
-        public int ID;
-        public int Capacity;
-        public List<Shopping_Cart_Item> items;
-        public ShoppingCart(int id, int capacity)
+        private int ID;
+        public List<ShoppingCartItem> items;
+        public ShoppingCart()
         {
-            ID = id;
-            Capacity = capacity;
-            items = new List<Shopping_Cart_Item>();
+            ID = 0;
+            items = new List<ShoppingCartItem>();
         }
-        public List<Shopping_Cart_Item> add(Shopping_Cart_Item item)
+        public void add(ShoppingCartItem item)
         {
             items.Add(item);
-            return items;
         }
 
-        public List<Shopping_Cart_Item> remove(Shopping_Cart_Item item)
+        public void remove(ShoppingCartItem item)
         {
             items.Remove(item);
-            return items;
         }
     }
 }

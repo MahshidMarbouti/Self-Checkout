@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Self_Checkout
+namespace SelfCheckout
 {
     public class Recipet
     {
@@ -21,13 +21,13 @@ namespace Self_Checkout
             Console.WriteLine(DateTime.Now);
             foreach (var item in Cart.items)
             {
-                rowTotal = item.ProductItem.price * item.Quantity;
+                rowTotal = item.ProductItem.Price * item.Quantity;
                 Total += rowTotal;
-                Console.WriteLine("Name, PricePerItem, Quantity, Total");
-                Console.WriteLine("Name {0}, price is {1}, Quantity is {2}, Total is {3}", item.ProductItem.Name, item.ProductItem.price, item.Quantity, rowTotal);
 
+                Console.WriteLine("Name, PricePerItem, Quantity, Total");
+                Console.WriteLine($"Name {item.ProductItem.Name}, price is {item.ProductItem.Price}, Quantity is {item.Quantity}, Total is {rowTotal}");
             }
-            Console.WriteLine("Total amount to pay: {0}", Total);
+            Console.WriteLine($"Total amount to pay: {Total}");
             return Total;
 
 

@@ -1,13 +1,13 @@
-﻿namespace Self_Checkout
+﻿namespace SelfCheckout
 {
     public class Product
     {
-        public int ID;
+        public int Id;
         public ProductType Type;
         public int Price;
         public string Name;
         public Product(int id, ProductType type, int price, string name){
-            ID = id;
+            Id = id;
             Type = type;
             Price = price;
             Name = name;

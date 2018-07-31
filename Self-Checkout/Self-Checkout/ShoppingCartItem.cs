@@ -1,11 +1,11 @@
 ﻿using System;
-namespace Self_Checkout
+namespace SelfCheckout
 {
-    public class Shopping_Cart_Item
+    public class ShoppingCartItem
     {
         public Product ProductItem;
         public int Quantity;
-        public Shopping_Cart_Item(Product product, int quantity = 0)
+        public ShoppingCartItem(Product product, int quantity = 0)
         {
             ProductItem = product;
             Quantity = quantity;
