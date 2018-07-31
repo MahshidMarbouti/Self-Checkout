@@ -10,4 +10,9 @@
     <Compile Remove="EmptyClass.cs" />
     <Compile Remove="Shopping_Card_Item.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Update="Products.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>

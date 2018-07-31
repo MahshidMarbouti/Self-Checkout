@@ -18,8 +18,10 @@ namespace SelfCheckout
             var shoppingCartItemforProduct = _shoppingcart.items.SingleOrDefault(x => x.ProductItem.Id == productId);
 
             if (shoppingCartItemforProduct==null){
+                // TODO: use IoC for dependency injection instead of newing classes (new is glue!!)
                 var textReader = new TextReader();
-                var productRepository = new ProductRepository(textReader);
+                var productParser = new ProductParser(); 
+                var productRepository = new ProductRepository(textReader, productParser);
 
                 //TODO: check for not found products
                 var productInRepository = productRepository.FindById(productId);

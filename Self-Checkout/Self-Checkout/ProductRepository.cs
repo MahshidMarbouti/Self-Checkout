@@ -12,10 +12,13 @@ namespace SelfCheckout
     public class ProductRepository 
     {
         private ITextReader _textReader;
+        private IProductParser _productParser;
+        private const string PATH_TO_READ = "Products.txt";
 
-        public ProductRepository(ITextReader textReader)
+        public ProductRepository(ITextReader textReader, IProductParser productParser)
         {
             _textReader = textReader;
+            _productParser = productParser;
         }
 
         /// <summary>
@@ -25,17 +28,17 @@ namespace SelfCheckout
         /// <param name="id">The product identifier.</param>
         public Product FindById(int id)
         {
-            var path = "\\Users\\Mahshid\\Self-Checkout\\Self-Checkout\\Self-Checkout\\Products.txt";
-            var linesOfProduct = _textReader.Read(path);
+           
+            var linesOfProduct = _textReader.Read(PATH_TO_READ);
             var products = new List<Product>();
             foreach(var line in linesOfProduct)
             {
-                var items = line.Split(',');
-                var product = new Product(id, new ProductType(items[1]), Convert.ToInt32(items[2]), items[3]);
+                Product product = _productParser.ParseLine(line);
                 products.Add(product);
 
             }
             return products.SingleOrDefault(x => x.Id == id);
         }
+
     }
 }
