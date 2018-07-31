@@ -9,7 +9,7 @@ namespace SelfCheckout
         public ShoppingCart Cart { get; set; }
         public static string address = "ABC";
 
-        public Recipet(int id, ShoppingCart cart)
+        public Recipet( ShoppingCart cart)
         {
             Id = NextId;
             NextId++;
