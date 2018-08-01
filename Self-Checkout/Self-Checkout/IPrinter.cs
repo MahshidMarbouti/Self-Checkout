@@ -7,12 +7,12 @@ namespace SelfCheckout
     /// <summary>
     /// Prints reciept.
     /// </summary>
-    interface IPrinter
+    public interface IPrinter
     {
         /// <summary>
         /// Prints a given reciepts
         /// </summary>
         /// <param name="recipet"></param>
-        void PrintReciept(Recipet recipet);
+        void Print(Recipet recipet);
     }
 }

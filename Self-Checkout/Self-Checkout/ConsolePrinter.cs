@@ -5,10 +5,10 @@ using System.Text;
 namespace SelfCheckout
 {
     /// <inheritdoc />
-    class Printer : IPrinter
+    public class ConsolePrinter : IPrinter
     {
         /// <inheritdoc />
-        void PrintReciept(Recipet recipet)
+        public void Print(Recipet recipet)
         {
             int rowTotal;
             int Total = 0;
@@ -24,7 +24,6 @@ namespace SelfCheckout
                 Console.WriteLine($"Name {item.ProductItem.Name}, price is {item.ProductItem.Price}, Quantity is {item.Quantity}, Total is {rowTotal}");
             }
             Console.WriteLine($"Total amount to pay: {Total}");
-            return Total;
 
         }
     }

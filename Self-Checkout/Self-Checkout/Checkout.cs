@@ -13,7 +13,7 @@ namespace SelfCheckout
         {
             _date = DateTime.Now;
             _shoppingcart = new ShoppingCart();
-            _iPrinter = IPrinter;
+            _iPrinter = iPrinter;
         }
         public void Add(int productId)
         {
@@ -38,11 +38,10 @@ namespace SelfCheckout
         /// Generantes the reciept.
         /// </summary>
         /// <returns>The reciept.</returns>
-        public int GeneranteReciept()
+        public void GeneranteReciept()
         {
             var receipt = new Recipet(_shoppingcart);
-            var price = _iPrinter.PrintReciept(receipt);
-            return price;
+            _iPrinter.PrintReciept(receipt);
         }
         /// <summary>
         /// 
