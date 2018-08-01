@@ -41,7 +41,7 @@ namespace SelfCheckout
         public void GeneranteReciept()
         {
             var receipt = new Recipet(_shoppingcart);
-            _iPrinter.PrintReciept(receipt);
+            _iPrinter.Print(receipt);
         }
         /// <summary>
         /// 

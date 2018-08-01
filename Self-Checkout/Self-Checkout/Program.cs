@@ -6,7 +6,7 @@ namespace SelfCheckout
     {
         static void Main(string[] args)
         {
-            Printer printer = new Printer();
+            ConsolePrinter printer = new ConsolePrinter();
             Console.WriteLine("Hello World!");
             Checkout newCheckout = new Checkout(printer);
             newCheckout.Add(1);
