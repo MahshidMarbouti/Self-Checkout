@@ -2,11 +2,12 @@
 {
     public class Product
     {
-        public int Id;
-        public ProductType Type;
-        public int Price;
-        public string Name;
-
+        
+        public ProductType Type { get; private set; }
+        public int Price{ get; private set; }
+        public string Name{ get; private set; }
+        public int Id { get; private set; }
+      
         private Product(int id, ProductType type, int price, string name){
             Id = id;
             Type = type;
