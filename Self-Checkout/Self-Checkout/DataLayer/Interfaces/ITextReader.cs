@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.Collections.Generic;
 
-namespace SelfCheckout
+namespace Self_Checkout.DataLayer.Interfaces
 {
     /// <summary>
     /// Provides a collection of line for a given file.

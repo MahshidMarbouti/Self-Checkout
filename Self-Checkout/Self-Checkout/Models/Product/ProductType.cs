@@ -1,4 +1,4 @@
-﻿namespace SelfCheckout
+﻿namespace Self_Checkout.Models.Product
 {
     public class ProductType
     {     

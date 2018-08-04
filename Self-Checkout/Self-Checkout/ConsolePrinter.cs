@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Self_Checkout.Interfaces;
+using Self_Checkout.Models.Payment;
 
 namespace SelfCheckout
 {

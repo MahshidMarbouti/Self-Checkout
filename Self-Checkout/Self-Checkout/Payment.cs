@@ -1,4 +1,6 @@
 ﻿using System;
+using Self_Checkout.Models.Payment;
+
 namespace SelfCheckout
 {
     public class Payment

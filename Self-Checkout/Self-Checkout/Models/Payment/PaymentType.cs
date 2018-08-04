@@ -1,8 +1,8 @@
-﻿namespace SelfCheckout
+﻿namespace Self_Checkout.Models.Payment
 {
     public class PaymentType
     {
-        public int ID;
+        public int Id;
         public string Name;
     }
 }

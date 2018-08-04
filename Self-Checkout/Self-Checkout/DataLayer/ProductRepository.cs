@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Expressions;
+using SelfCheckout;
+using Self_Checkout.DataLayer.Interfaces;
+using Self_Checkout.Models.Product;
 
-namespace SelfCheckout
+namespace Self_Checkout.DataLayer
 {
     /// <summary>
     /// Product repository.
@@ -13,7 +13,7 @@ namespace SelfCheckout
     {
         private ITextReader _textReader;
         private IProductParser _productParser;
-        private const string PATH_TO_READ = "Products.txt";
+        private const string PATH_TO_READ = "SampleData/Products.txt";
 
         public ProductRepository(ITextReader textReader, IProductParser productParser)
         {

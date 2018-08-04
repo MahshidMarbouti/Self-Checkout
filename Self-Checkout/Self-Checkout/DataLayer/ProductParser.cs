@@ -1,5 +1,8 @@
-﻿using System;
-namespace SelfCheckout
+﻿using SelfCheckout;
+using Self_Checkout.DataLayer.Interfaces;
+using Self_Checkout.Models.Product;
+
+namespace Self_Checkout.DataLayer
 {
     public class ProductParser:IProductParser
     {

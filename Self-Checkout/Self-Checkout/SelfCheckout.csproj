@@ -1,18 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <RootNamespace>Self_Checkout</RootNamespace>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Remove="EmptyClass.cs" />
     <Compile Remove="Shopping_Card_Item.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Update="Products.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="SampleData\Products.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 </Project>

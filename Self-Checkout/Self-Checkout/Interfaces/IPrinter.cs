@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using SelfCheckout;
+using Self_Checkout.Models.Payment;
 
-namespace SelfCheckout
+namespace Self_Checkout.Interfaces
 {
     /// <summary>
     /// Prints reciept.

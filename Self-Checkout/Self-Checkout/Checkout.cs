@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Linq;
+using Self_Checkout.DataLayer;
+using Self_Checkout.Interfaces;
+using Self_Checkout.Models.Payment;
 
 namespace SelfCheckout
 {

@@ -2,6 +2,9 @@
 using Xunit;
 using SelfCheckout;
 using System.Collections.Generic;
+using Self_Checkout.DataLayer;
+using Self_Checkout.DataLayer.Interfaces;
+using Self_Checkout.Interfaces;
 
 namespace SelfCheckoutTests
 {

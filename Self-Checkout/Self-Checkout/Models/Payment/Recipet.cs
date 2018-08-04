@@ -1,9 +1,10 @@
-﻿using System;
-namespace SelfCheckout
+﻿using SelfCheckout;
+
+namespace Self_Checkout.Models.Payment
 {
     public class Recipet
     {
-        public int Id { get; set; }
+        public int Id { get; }
         public static int NextId;
         public string Address { get; set; }
         public ShoppingCart Cart { get; set; }

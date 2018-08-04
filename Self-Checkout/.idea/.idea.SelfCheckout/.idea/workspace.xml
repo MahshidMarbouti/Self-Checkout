@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d6771f6-bbf2-4c8f-b311-5ac1d03f1c89" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self-Checkout/Checkout.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self-Checkout/ConsolePrinter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self-Checkout/DataLayer/Interfaces/IProductParser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self-Checkout/DataLayer/Interfaces/ITextReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self-Checkout/DataLayer/ProductParser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self-Checkout/DataLayer/ProductRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self-Checkout/DataLayer/TextReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self-Checkout/EmptyClass.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self-Checkout/Interfaces/IPrinter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self-Checkout/Models/Payment/PaymentType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self-Checkout/Models/Payment/Recipet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self-Checkout/Models/Product/Product.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self-Checkout/Models/Product/ProductType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self-Checkout/Payment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self-Checkout/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self-Checkout/SelfCheckout.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self-Checkout/ShoppingCart.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self-Checkout/ShoppingCartItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self-Checkout/Shopping_Card_Item.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SelfCheckout.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SelfCheckoutTests/ProductParserTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SelfCheckoutTests/ProductRepositoryTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SelfCheckoutTests/SelfCheckoutTests.csproj" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="IProductParser.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Self-Checkout/DataLayer/Interfaces/IProductParser.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ITextReader.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Self-Checkout/DataLayer/Interfaces/ITextReader.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <folding>
+                <marker date="1533404090402" expanded="true" signature="79:471" ph="{...}" />
+                <marker date="1533404090402" expanded="true" signature="86:174" ph="/// Provides a collection of line for a given file. ... " />
+                <marker date="1533404090402" expanded="true" signature="207:462" ph="{...}" />
+                <marker date="1533404090402" expanded="true" signature="222:409" ph="/// Read the specified path. ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductParser.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Self-Checkout/DataLayer/ProductParser.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding>
+                <marker date="1533404381621" expanded="true" signature="6:61" ph="..." />
+                <marker date="1533404381621" expanded="true" signature="132:344" ph="{...}" />
+                <marker date="1533404381621" expanded="true" signature="180:342" ph="{...}" />
+                <marker date="1533404381621" expanded="true" signature="232:336" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductRepository.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Self-Checkout/DataLayer/ProductRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <folding>
+                <marker date="1533404381612" expanded="true" signature="6:114" ph="..." />
+                <marker date="1533404381612" expanded="true" signature="185:1252" ph="{...}" />
+                <marker date="1533404381612" expanded="true" signature="192:252" ph="/// Product repository. ... " />
+                <marker date="1533404381612" expanded="true" signature="288:1250" ph="{...}" />
+                <marker date="1533404381612" expanded="true" signature="530:632" ph="{...}" />
+                <marker date="1533404381612" expanded="true" signature="642:814" ph="/// Finds the product. ... " />
+                <marker date="1533404381612" expanded="true" signature="854:1243" ph="{...}" />
+                <marker date="1533404381612" expanded="true" signature="1037:1171" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Recipet.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Self-Checkout/Models/Payment/Recipet.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <folding>
+                <marker date="1533404334032" expanded="true" signature="59:439" ph="{...}" />
+                <marker date="1533404334032" expanded="true" signature="86:437" ph="{...}" />
+                <marker date="1533404334032" expanded="true" signature="338:430" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Self-Checkout/Models/Product/Product.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentType.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Self-Checkout/Models/Payment/PaymentType.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <folding>
+                <marker date="1533404381601" expanded="true" signature="38:134" ph="{...}" />
+                <marker date="1533404381601" expanded="true" signature="69:132" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IPrinter.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Self-Checkout/Interfaces/IPrinter.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding>
+                <marker date="1533404381624" expanded="true" signature="91:359" ph="{...}" />
+                <marker date="1533404381624" expanded="true" signature="98:154" ph="/// Prints reciept. ... " />
+                <marker date="1533404381624" expanded="true" signature="184:357" ph="{...}" />
+                <marker date="1533404381624" expanded="true" signature="199:314" ph="/// Prints a given reciepts ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Self-Checkout/DataLayer/ProductParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Self-Checkout/DataLayer/ProductRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Self-Checkout/Models/Product/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Self-Checkout/Models/Payment/PaymentType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Self-Checkout/DataLayer/Interfaces/IProductParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Self-Checkout/Models/Payment/Recipet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Self-Checkout/DataLayer/Interfaces/ITextReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Self-Checkout/Interfaces/IPrinter.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Self-Checkout/Interfaces/IPrinter.cs" />
+        <option value="$PROJECT_DIR$/Self-Checkout/Interfaces/IProductParser.cs" />
+        <option value="$PROJECT_DIR$/Self-Checkout/DataLayer/Interfaces/ITextReader.cs" />
+        <option value="$PROJECT_DIR$/Self-Checkout/DataLayer/ProductParser.cs" />
+        <option value="$PROJECT_DIR$/Self-Checkout/DataLayer/ProductRepository.cs" />
+        <option value="$PROJECT_DIR$/Self-Checkout/Models/Payment/PaymentType.cs" />
+        <option value="$PROJECT_DIR$/Self-Checkout/Models/Payment/Recipet.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="20" />
+    <option name="y" value="43" />
+    <option name="width" value="1400" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SelfCheckout (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SelfCheckout (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SelfCheckout" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SelfCheckout (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SelfCheckout" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SelfCheckout (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SelfCheckout" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Payment" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Self-Checkout/bin/Debug/netcoreapp2.1/SelfCheckout.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Self-Checkout" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Self-Checkout/SelfCheckout.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <browser url="http://localhost:5000" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d6771f6-bbf2-4c8f-b311-5ac1d03f1c89" name="Default" comment="" />
+      <created>1533403747013</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533403747013</updated>
+      <workItem from="1533403749804" duration="631000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="631000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="20" y="43" width="1400" height="777" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Self-Checkout/Interfaces/IPrinter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <marker date="1533404381624" expanded="true" signature="91:359" ph="{...}" />
+            <marker date="1533404381624" expanded="true" signature="98:154" ph="/// Prints reciept. ... " />
+            <marker date="1533404381624" expanded="true" signature="184:357" ph="{...}" />
+            <marker date="1533404381624" expanded="true" signature="199:314" ph="/// Prints a given reciepts ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Self-Checkout/DataLayer/Interfaces/IProductParser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Self-Checkout/DataLayer/Interfaces/ITextReader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding>
+            <marker date="1533404090402" expanded="true" signature="79:471" ph="{...}" />
+            <marker date="1533404090402" expanded="true" signature="86:174" ph="/// Provides a collection of line for a given file. ... " />
+            <marker date="1533404090402" expanded="true" signature="207:462" ph="{...}" />
+            <marker date="1533404090402" expanded="true" signature="222:409" ph="/// Read the specified path. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Self-Checkout/DataLayer/ProductParser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1533404381621" expanded="true" signature="6:61" ph="..." />
+            <marker date="1533404381621" expanded="true" signature="132:344" ph="{...}" />
+            <marker date="1533404381621" expanded="true" signature="180:342" ph="{...}" />
+            <marker date="1533404381621" expanded="true" signature="232:336" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Self-Checkout/DataLayer/ProductRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <marker date="1533404381612" expanded="true" signature="6:114" ph="..." />
+            <marker date="1533404381612" expanded="true" signature="185:1252" ph="{...}" />
+            <marker date="1533404381612" expanded="true" signature="192:252" ph="/// Product repository. ... " />
+            <marker date="1533404381612" expanded="true" signature="288:1250" ph="{...}" />
+            <marker date="1533404381612" expanded="true" signature="530:632" ph="{...}" />
+            <marker date="1533404381612" expanded="true" signature="642:814" ph="/// Finds the product. ... " />
+            <marker date="1533404381612" expanded="true" signature="854:1243" ph="{...}" />
+            <marker date="1533404381612" expanded="true" signature="1037:1171" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Self-Checkout/Models/Product/Product.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Self-Checkout/Models/Payment/PaymentType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <marker date="1533404381601" expanded="true" signature="38:134" ph="{...}" />
+            <marker date="1533404381601" expanded="true" signature="69:132" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Self-Checkout/Models/Payment/Recipet.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <marker date="1533404334032" expanded="true" signature="59:439" ph="{...}" />
+            <marker date="1533404334032" expanded="true" signature="86:437" ph="{...}" />
+            <marker date="1533404334032" expanded="true" signature="338:430" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

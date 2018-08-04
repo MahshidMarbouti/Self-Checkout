@@ -1,6 +1,7 @@
 using System;
 using Xunit;
 using SelfCheckout;
+using Self_Checkout.DataLayer;
 
 namespace SelfCheckoutTests
 {

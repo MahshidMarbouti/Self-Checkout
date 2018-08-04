@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
+using Self_Checkout.DataLayer.Interfaces;
 
-namespace SelfCheckout
+namespace Self_Checkout.DataLayer
 {
     /// <inheritdoc />
     public class TextReader : ITextReader

@@ -1,4 +1,6 @@
 ﻿using System;
+using Self_Checkout.Models.Product;
+
 namespace SelfCheckout
 {
     public class ShoppingCartItem
