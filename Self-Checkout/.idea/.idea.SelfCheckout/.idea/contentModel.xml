@@ -46,6 +46,8 @@
           <e p="Products.txt" t="Include" />
         </e>
         <e p="SelfCheckout.csproj" t="IncludeRecursive" />
+        <e p="ServiceLocator.cs" t="Include" />
+        <e p="ServiceLocatorGeneric.cs" t="Include" />
         <e p="ShoppingCart.cs" t="Include" />
         <e p="ShoppingCartItem.cs" t="Include" />
       </e>

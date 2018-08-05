@@ -6,6 +6,8 @@ namespace SelfCheckout
     {
         static void Main(string[] args)
         {
+            //ServiceLocator.RegisterAll();
+            ServiceLocatorGeneric.RegisterAll();
             ConsolePrinter printer = new ConsolePrinter();
             Console.WriteLine("Hello World!");
             Checkout newCheckout = new Checkout(printer);

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using Self_Checkout.DataLayer;
+using Self_Checkout.DataLayer.Interfaces;
 using Self_Checkout.Interfaces;
 using Self_Checkout.Models.Payment;
 
@@ -24,8 +25,12 @@ namespace SelfCheckout
 
             if (shoppingCartItemforProduct==null){
                 // TODO: use IoC for dependency injection instead of newing classes (new is glue!!)
-                var textReader = new TextReader();
-                var productParser = new ProductParser(); 
+                //var textReader = (ITextReader)ServiceLocator.Resolve(typeof(ITextReader));
+                
+                var textReader = ServiceLocatorGeneric.Resolve<ITextReader>();
+                
+                var productParser = ServiceLocatorGeneric.Resolve<IProductParser>(); 
+                
                 var productRepository = new ProductRepository(textReader, productParser);
 
                 //TODO: check for not found products
